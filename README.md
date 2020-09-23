@@ -8,14 +8,14 @@ available products. Shopping basket contains products from catalog and to-bepurc
 amounts. Don’t forget to keep the product catalog up to date: products and
 stocks are updated based on the reservations in the basket.
 We need the following functions:
-1. Adding/removing/editing products in product catalog
-2. Adding/removing/editing products in shopping basket
-3. Querying products from product catalog with basic pagination (e.g. 100
+#. Adding/removing/editing products in product catalog
+#. Adding/removing/editing products in shopping basket
+#. Querying products from product catalog with basic pagination (e.g. 100
 products / query), sorted by given sorting key (name or price).
-4. Querying products from product catalog, grouped by price ranges (with a
+#. Querying products from product catalog, grouped by price ranges (with a
 single function call, fully customizable via input data, example of range set:
 cheaper than 5 €, 5-10€, more expensive than 10€).
-5. Searching product from catalog by matching the beginning of product name,
+#. Searching product from catalog by matching the beginning of product name,
 filtering the results within given price range (min, max), and sorting by given
 key (name or price).
 We appreciate good programming practices (e.g. tests) and readability of your
