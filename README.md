@@ -1,24 +1,24 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+CHALLENGE 1.
+Your task is to implement backend application library to product catalog and shopping
+basketof a web shop.
+Product catalog contains at least names, amounts for sale (i.e. stock) and prices of
+available products. Shopping basket contains products from catalog and to-bepurchased
+amounts. Don’t forget to keep the product catalog up to date: products and
+stocks are updated based on the reservations in the basket.
+We need the following functions:
+1. Adding/removing/editing products in product catalog
+2. Adding/removing/editing products in shopping basket
+3. Querying products from product catalog with basic pagination (e.g. 100
+products / query), sorted by given sorting key (name or price).
+4. Querying products from product catalog, grouped by price ranges (with a
+single function call, fully customizable via input data, example of range set:
+cheaper than 5 €, 5-10€, more expensive than 10€).
+5. Searching product from catalog by matching the beginning of product name,
+filtering the results within given price range (min, max), and sorting by given
+key (name or price).
+We appreciate good programming practices (e.g. tests) and readability of your
+solution.
+You can employ any programming language and use freely any open source software
+libraries. To store data, you can use suitable database engine.
