@@ -27,3 +27,8 @@ solution.
 
 You can employ any programming language and use freely any open source software
 libraries. To store data, you can use suitable database engine.
+
+# implementation
+- The files containing the logic are in the controller folder i.e. product and shoppingcart. 
+- A simple interface is available for testing when the rails server is run. 
+- All the methods are implemented using keyword arguments.
